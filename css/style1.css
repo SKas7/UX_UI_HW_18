@@ -1,0 +1,60 @@
+/* Navbar*/
+.inline-block{
+    display:inline-block;
+    vertical-align:top;
+}
+div .logo{
+    width:23%;
+    padding:1%;
+}
+div nav{
+    width:73%;
+    padding:1%;
+}
+ul{
+    width:50%;
+    margin-left:auto;
+}
+.logo{
+    text-align:center;
+
+}
+.logoImage{
+    width:20%;
+    margin-top: 10px;;
+}
+
+/* hero image*/
+section .heroImg{
+    height: 600px;
+    padding: 25px;
+}
+.content{
+    width: 500px;
+    margin:0 auto;
+
+}
+
+/* Footer */
+footer{
+    background-color:#373738;
+    color:white;
+}
+
+footer ul li{
+    padding: 10px 20px;
+    margin:auto;
+}
+
+footer ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: auto;
+    margin-left:auto;
+
+}
+
+header{
+    background-color: #373738;
+    color:white;
+}
