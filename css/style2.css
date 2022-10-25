@@ -21,26 +21,28 @@ nav{
     flex-direction: wrap;
     background-color: #808080;
 }
+.show-mobile{
+    display: none;
+}
+
+
 nav ul{
     background-color:#808080;
 }
 nav ul li a{
     background-color: #808080;
     font-family: 'Inria Serif', serif;
-    font-size: 20px;
-}
-.logo{
-    width: 140px; 
+    font-size: 1.3em;
 }
 nav ul li{
-    display:inline-block;
+    display:inline-flex;
     list-style:none;
     margin:10px 20px;
 }
 .logoSize{
     margin-top: 10px;
     display: inline-block;
-    width: 15%;
+    width: 230px;
     height: auto;
     background-color: #808080;
 }
@@ -69,9 +71,6 @@ nav ul li{
     width: 50%;
     float: left;
     padding: 0px;
-}
-.childClass{
-    font-size: larger;
 }
 .infoSpacing{
     margin-top: 3%;
@@ -118,9 +117,7 @@ footer ul{
 .socialMediaImages img{
     width: 40px;
 }
-.logo{
-    display:inline-block;
-}
+
 /* My UX Skills section coded using CSS flex*/
 .qualifications{
     width: 90%;
@@ -205,6 +202,22 @@ footer ul{
     .flexContainer{flex-direction: column;}
     body{
         flex-direction: column;
+    }
+    .boxedItems p{
+        font-size: small;
+        padding: 7px 25px;
+        margin: 5px;
+    }
+    .hide-mobile{
+        display: none;
+    }
+    #hamburgerIcon{
+        background-color: transparent;
+    }
+    .left-align { float: left; }
+    .right-align { float: right; }
+    .show-mobile{
+        display: flex;
     }
     .workGrid{
         display:grid;
