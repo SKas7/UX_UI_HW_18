@@ -144,28 +144,21 @@ footer ul{
     margin: 2%;
     display:grid;
     grid-column-gap:20px;
-    grid-template-rows: 310px 140px;
+    grid-template-rows: 485px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "project1 project2 project3" "project1Info project2Info project3Info";
+    grid-template-areas: "firstItem secondItem thirdItem";
 }
-#firstProject{
-    grid-area:project1;
-
+.project1Overview{
+    grid-area:firstItem;
+    border: 2px red solid;
 }
-#secondProject{
-    grid-area:project2;
+.project2Overview{
+    grid-area:secondItem;
+    border: 2px red solid;
 }
-#thirdProject{
-    grid-area:project3;
-}
-#firstProjectInfo{
-    grid-area: project1Info;
-}
-#secondProjectInfo{
-    grid-area: project2Info;
-}
-#thirdProjectInfo{
-    grid-area: project3Info;
+.project3Overview{
+    grid-area:thirdItem;
+    border: 2px red solid;
 }
 #firstProjectInfo,#secondProjectInfo,#thirdProjectInfo{
     background-color: black;
@@ -176,7 +169,6 @@ footer ul{
     margin-top: 10px;
 }
 .workGrid img{
-    display: flex;
     float: left;
     width:  100%;
     height: 310px;
@@ -208,14 +200,19 @@ footer ul{
     }
     .workGrid{
         display:grid;
-        grid-template-rows:300px 140px 300px 140px 300px 140px;
+        grid-template-rows:300px 300px 300px;
         grid-template-columns: 1fr;
-        grid-template-areas: "project1" "project1Info" "project2" "project2Info" "project3" "project3Info";
-        grid-row-gap:10px;
+        grid-template-areas: "firstItem" "secondItem" "thirdItem";
     }
     .workGrid img{
         width:  100%;
-        height: 300px;
+        height: 140px;
         object-fit: cover;
+    }
+    .cardInfo{
+        display: inline-block;
+        text-align: center;
+        background-color: black;
+        margin-top: 40px;
     }
 }
