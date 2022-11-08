@@ -197,6 +197,23 @@ footer ul{
 .qualifications h1, .myWork h1{
     color: #A3D9D3;
 }
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+
+
+
+
+
 /*Responsive Design for Mobile Devices*/
 @media only screen and (max-width:600px) {
     .flexContainer{flex-direction: column;}
